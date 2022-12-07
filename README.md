@@ -5,7 +5,7 @@ Using an inexpensive VPS, this deployment script will build a Ruby app with the 
 ### Dependencies
 
 ```
-apt update -y && apt upgrade -y && apt install htop curl git build-essential libssl-dev -y
+apt update -y && apt upgrade -y && apt install htop curl git build-essential libssl-dev zlib1g-dev -y
 
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
