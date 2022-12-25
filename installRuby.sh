@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# wget -O - https://raw.githubusercontent.com/Deliverypath/Domain-Name-Retailer/main/installRuby.sh | bash
+
 apt update -y && apt upgrade -y && apt install htop curl git build-essential libssl-dev zlib1g-dev -y
 
 git clone https://github.com/rbenv/rbenv.git /root/.rbenv
